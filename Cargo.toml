@@ -1,0 +1,12 @@
+[package]
+name = "sound-loop"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rodio = "0.19.0"
+tray-item = "0.10.0"
+windows = { version = "0.58.0", features = ["Win32", "Win32_System", "Win32_System_Console", "Win32_Foundation", "Win32_UI_WindowsAndMessaging"] }
+
+[build-dependencies]
+embed-resource = "2.3"
